@@ -1,0 +1,40 @@
+.label{
+    color:  cornsilk;
+    font-family: 'Bilbo', cursive;
+    font-size: 30px;
+}
+
+.incDec {
+    border: 2px solid cornsilk;
+    border-radius: 5%;
+    background-color: indianred;
+    color: cornsilk;
+    padding: 0px 16px;
+    font-family: 'Bilbo', cursive;
+    font-style: bold;
+    font-size: 20px;
+    
+  }
+  .incDec:hover{
+    background-color: cornsilk;
+    color: indianred;
+    cursor: pointer;
+
+  }
+  
+  .incDec:disabled:hover{
+    background-color: indianred;
+    color: cornsilk;
+    cursor: default;
+    
+  }
+  
+
+  .length{
+      margin-left: 40px;
+      margin-right: 40px;      
+      font-size: 30px;      
+      color: cornsilk;
+
+  }
+  

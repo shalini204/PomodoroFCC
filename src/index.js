@@ -6,7 +6,8 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App defaultBreakLength='5' 
+          defaultSessionLength='25'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
